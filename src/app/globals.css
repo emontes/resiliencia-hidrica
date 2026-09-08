@@ -212,8 +212,10 @@ h1 { font-size: clamp(50px, 5.2vw, 71px); line-height: 1.01; margin-top: 25px; m
 .footer-main > p { font-size: 10px; line-height: 1.8; color: #4e5c3c; }
 .footer-main > p > span { color: #858c78; font-size: 9px; }
 .back-top { display: flex; align-items: center; gap: 12px; font-size: 10px; color: #697951; }
-.footer-bottom { display: flex; justify-content: space-between; gap: 20px; border-top: 1px solid #dce0cf; padding-block: 18px; font-size: 8px; color: #8b927e; }
-.footer-bottom > span:last-child { display: flex; align-items: center; gap: 7px; }
+.footer-bottom { display: flex; justify-content: space-between; align-items: center; gap: 20px; border-top: 1px solid #dce0cf; padding-block: 18px; font-size: 8px; color: #8b927e; }
+.footer-links { display: flex; flex-wrap: wrap; align-items: center; gap: 16px; }
+.footer-links a { display: inline-flex; align-items: center; gap: 6px; color: #6b7953; font-weight: 500; }
+.footer-links a:hover { color: #3d4c2a; }
 
 @media (min-width: 1500px) {
   .hero { padding-block: 75px 60px; }

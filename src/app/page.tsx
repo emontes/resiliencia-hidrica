@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { ArrowDown, ArrowDownRight, ArrowRight, ArrowUpRight, Award, BookOpen, CalendarDays, Check, ChevronDown, Clock3, Droplets, FileCheck2, Layers3, Leaf, Monitor, ShieldCheck, Sprout, Users, Waves } from "lucide-react";
+import { ArrowDown, ArrowDownRight, ArrowRight, ArrowUpRight, Award, BookOpen, CalendarDays, Check, ChevronDown, Clock3, Droplets, Facebook, Layers3, Leaf, Monitor, ShieldCheck, Sprout, Users, Waves } from "lucide-react";
 import { RegistrationForm } from "@/components/registration-form";
 
 const outcomes = [
@@ -73,7 +73,7 @@ export default function Home() {
         <section className="section container faq-section" aria-labelledby="faq-title"><div><p className="eyebrow">TODO CLARO, ANTES DE EMPEZAR</p><h2 id="faq-title">¿Tienes <em>dudas?</em></h2><p>Lo que necesitas saber para dar el siguiente paso.</p></div><div className="faq-list">{faqs.map(({ question, answer }) => <details key={question}><summary>{question}<ChevronDown size={19} /></summary><p>{answer}</p></details>)}</div></section>
         <div className="container closing-line"><Leaf size={20} strokeWidth={1.4} /><p>Menos impacto. Más resiliencia. <em>Un futuro con agua.</em></p></div>
       </main>
-      <footer className="site-footer"><div className="container footer-main"><Brand footer /><p>Curso - Taller 2026<br /><span>Resiliencia Hídrica e Impacto Hidrológico Cero</span></p><a href="#inicio" className="back-top">Volver arriba <ArrowUpRight size={18} /></a></div><div className="container footer-bottom"><span>© 2026 ANPROGERI. Todos los derechos reservados.</span><span><FileCheck2 size={14} /> Formación para un territorio más resiliente.</span></div></footer>
+      <footer className="site-footer"><div className="container footer-main"><Brand footer /><p>Curso - Taller 2026<br /><span>Resiliencia Hídrica e Impacto Hidrológico Cero</span></p><a href="#inicio" className="back-top">Volver arriba <ArrowUpRight size={18} /></a></div><div className="container footer-bottom"><span>© 2026 ANPROGERI. Todos los derechos reservados.</span><div className="footer-links"><a href="https://enriquemontes.com" target="_blank" rel="noopener noreferrer">Desarrollado por Enrique Montes <ArrowUpRight size={11} /></a><a href="https://www.facebook.com/ANPROGERI.DELEGACION.CHIAPAS" target="_blank" rel="noopener noreferrer"><Facebook size={12} aria-label="Facebook ANPROGERI Chiapas" /> Facebook</a></div></div></footer>
     </>
   );
 }
