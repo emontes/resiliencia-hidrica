@@ -6,7 +6,7 @@ Landing page de inscripción para el curso-taller 2026 de ANPROGERI.
 
 Página de una sola pantalla construida con Next.js 15 App Router, TypeScript, Tailwind CSS, Lucide React y React Hook Form. Está optimizada para captar registros de leads y enviarlos a un webhook de n8n.
 
-## Cómo correrlo
+## Cómo ejecutarlo
 
 ```bash
 npm install
